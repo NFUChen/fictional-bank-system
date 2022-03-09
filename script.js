@@ -376,9 +376,3 @@ btnLoan.addEventListener('click', function (event) {
   bank.updateUI();
   bank.resetTimer();
 });
-
-const currencies = new Map([
-  ['USD', 'United States dollar'],
-  ['EUR', 'Euro'],
-  ['GBP', 'Pound sterling'],
-]);
